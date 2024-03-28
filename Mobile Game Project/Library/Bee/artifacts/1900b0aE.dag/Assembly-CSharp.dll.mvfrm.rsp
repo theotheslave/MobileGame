@@ -8,6 +8,8 @@ Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Editor.ref.dll_
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Extension.ref.dll_22683F5ADFEFA389.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.UI.Editor.ref.dll_2F75AB27266799CB.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.ref.dll_F07A6251CDFF0652.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ForUI.ref.dll_0478B67D1094CE70.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_FD2EC87C14EBE081.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mobile.AndroidLogcat.Editor.ref.dll_5ADD071D6D2A40EE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Notifications.Android.ref.dll_205AF22F516A4D31.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Notifications.Unified.ref.dll_8B3F0C7FF53EB7B4.mvfrm
@@ -116,4 +118,6 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.VirtualTexturingModule.dll_4304FDD8A5C0
 Library\Bee\artifacts\mvdfrm\UnityEngine.VRModule.dll_E16DE92744475243.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_4BBEB82D04F2B9BF.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_142CAC2BCD819FA1.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Common.dll_7A98FF8D495B6010.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.iOS.Extensions.Xcode.dll_9AB227C4BD7B543C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm
