@@ -8,6 +8,8 @@ Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Editor.ref.dll_
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.Simulator.Extension.ref.dll_AA1861FED3FEA57C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.UI.Editor.ref.dll_959DEBF5068251DE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AdaptivePerformance.ref.dll_85DF7D34596AE085.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Formats.Alembic.Editor.ref.dll_C46E25702EC99B9F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Formats.Alembic.Runtime.ref.dll_BADCC8D106AA091C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ForUI.ref.dll_40741C90D384E043.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_7AAB9AE1EF926134.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mobile.AndroidLogcat.Editor.ref.dll_A233F786CE8834A1.mvfrm

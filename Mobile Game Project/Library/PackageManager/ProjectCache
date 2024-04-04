@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638477872213527314
-    m_Hash: 2366048593
+      ticks: 638477962405243507
+    m_Hash: 671877009
   m_LockFileStatus:
     m_FilePath: D:/VR/MobileGame/Mobile Game Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638477872213537307
-    m_Hash: 993223161
+      ticks: 638477962405300790
+    m_Hash: 45746766
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -305,6 +305,136 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.formats.alembic@2.3.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.3.4
+  source: 1
+  resolvedPath: D:\VR\MobileGame\Mobile Game Project\Library\PackageCache\com.unity.formats.alembic@2.3.4
+  assetPath: Packages/com.unity.formats.alembic
+  name: com.unity.formats.alembic
+  displayName: Alembic
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Import and export Alembic files (.abc), record and stream animations
+    in the Alembic format directly in Unity.
+
+    NOTE: Supported build platforms:
+    only Windows 64, macOS X, and Linux 64.
+
+
+    The Alembic format is commonly
+    used in animation to transfer facial, cloth, and other simulation between applications
+    in the form of baked data.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 1.0.0-preview.2
+    - 1.0.0-preview.7
+    - 1.0.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 2.0.0-preview.1
+    - 2.0.1-preview.1
+    - 2.1.0-preview.3
+    - 2.1.1-pre.1
+    - 2.1.2
+    - 2.1.3
+    - 2.2.0-exp.1
+    - 2.2.0-exp.2
+    - 2.2.0-pre.3
+    - 2.2.0-pre.4
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    - 2.3.2
+    - 2.3.3
+    - 2.3.4
+    - 2.4.0
+    compatible:
+    - 2.3.2
+    - 2.3.3
+    - 2.3.4
+    - 2.4.0
+    recommended: 2.3.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.7.6
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - alembic
+  - abc
+  - animation
+  - facial
+  - cloth
+  - simulation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638346053160000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.formats.alembic@2.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.formats.alembic.git
+    revision: 5a5c70e6eb8b85a13f1199f67e84e44d546fe0b0
+    path: 
+  unityLifecycle:
+    version: 2.3.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

@@ -15,7 +15,7 @@ D:/VR/MobileGame/Mobile Game Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57575
+62823
 Successfully changed project path to: D:/VR/MobileGame/Mobile Game Project
 D:/VR/MobileGame/Mobile Game Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/VR/MobileGame/Mobile Game Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25208] Host "[IP] 192.168.2.7 [Port] 0 [Flags] 2 [Guid] 1737919014 [EditorId] 1737919014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54JIHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [87944] Host "[IP] 192.168.2.7 [Port] 0 [Flags] 2 [Guid] 3485380746 [EditorId] 3485380746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54JIHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25208] Host "[IP] 192.168.2.7 [Port] 0 [Flags] 2 [Guid] 1737919014 [EditorId] 1737919014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54JIHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [87944] Host "[IP] 192.168.2.7 [Port] 0 [Flags] 2 [Guid] 3485380746 [EditorId] 3485380746 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-54JIHP0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,51 +70,51 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005798 seconds.
-- Loaded All Assemblies, in  0.296 seconds
+Registered in 0.006064 seconds.
+- Loaded All Assemblies, in  0.305 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 857 ms
+Android Extension - Scanning For ADB Devices 307 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.160 seconds
-Domain Reload Profiling: 1456ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 911ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (103ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (108ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1160ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1112ms)
+		SetupLoadedEditorAssemblies (557ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (962ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (415ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,8 +122,8 @@ Domain Reload Profiling: 1456ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.500 seconds
-Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -138,47 +138,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.491 seconds
-Domain Reload Profiling: 990ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (291ms)
-		LoadAssemblies (260ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (120ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (88ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (91ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (492ms)
+	FinalizeReload (475ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (359ms)
+		SetupLoadedEditorAssemblies (347ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (25ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (63.2 KB). Loaded Objects now: 4100.
-Memory consumption went from 142.7 MB to 142.7 MB.
-Total: 4.288000 ms (FindLiveObjects: 0.612300 ms CreateObjectMapping: 0.277200 ms MarkObjects: 3.277700 ms  DeleteObjects: 0.119900 ms)
+Unloading 50 unused Assets / (63.4 KB). Loaded Objects now: 4117.
+Memory consumption went from 152.4 MB to 152.4 MB.
+Total: 3.316400 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.661000 ms  DeleteObjects: 0.138700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -195,177 +195,223 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 309525.586285 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(30340b97d11d06a45ab35a95bc963c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(30340b97d11d06a45ab35a95bc963c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71893cf5492e3159cc3e7b04d2f30024') in 0.002206 seconds
+  Time since last request: 312161.360886 seconds.
+  path: Assets/Scenes/Teo Scene/GameObject.prefab
+  artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86b29153babf2222ba3b128f9a88100') in 0.059075 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Red.mat
-  artifactKey: Guid(cd7c7f2418f7ad04cbda1421ac8d25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Red.mat using Guid(cd7c7f2418f7ad04cbda1421ac8d25c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc777b2b3dcd77081d796da863d778e') in 0.141642 seconds
+  Time since last request: 1.995035 seconds.
+  path: Assets/Scenes/Teo Scene/GameObject.prefab
+  artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df8b80e0d318de1d5b72684e438c3f4') in 0.006594 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.254887 seconds.
-  path: Assets/Scenes/Teo Scene
-  artifactKey: Guid(e121088e5c3e6c64ebc1f51f9c3c3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene using Guid(e121088e5c3e6c64ebc1f51f9c3c3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5e7d7955bea2afebf2b233bdfb9deb') in 0.000407 seconds
+  Time since last request: 109.840018 seconds.
+  path: Assets/Scenes/Teo Scene/GameObject.prefab
+  artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c57dc187ff6eb53653cda752302b4') in 0.006510 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 10.294585 seconds.
-  path: Assets/Scenes/Teo Scene/Teo Forest Test.unity
-  artifactKey: Guid(5da1e2d282802cf43b512f0df8d49c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Teo Forest Test.unity using Guid(5da1e2d282802cf43b512f0df8d49c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c687f45ea7422082c002b3349f344af1') in 0.000407 seconds
+  Time since last request: 2.290765 seconds.
+  path: Assets/Scenes/Teo Scene/GameObject.prefab
+  artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79454641313f96a582f5817f14c374e1') in 0.006747 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 31.146959 seconds.
+  Time since last request: 109.215634 seconds.
   path: Assets/Scenes/Teo Scene/tree1.fbx
   artifactKey: Guid(be6f2d6e8724e8e46893bd54084497bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/tree1.fbx using Guid(be6f2d6e8724e8e46893bd54084497bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a4f8b09deac7fd2f3d7d07d3e6a68e') in 0.040218 seconds
+Start importing Assets/Scenes/Teo Scene/tree1.fbx using Guid(be6f2d6e8724e8e46893bd54084497bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0343b3ea29b47a47fc362975b0714f7d') in 0.053109 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 15.344863 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52713b633dfb1f9c7ae800faedfdfe1b') in 0.010958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 5.413478 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a1857dea8c55183179fa7c2885534e') in 0.010416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 5.188981 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0972173620f2a1599d48392fb42f10') in 0.016907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.566673 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33406c040e8c42a829ec84de427b6a0e') in 0.008699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 8.196012 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c1651ff9e51ee1f47e4d76ebc1b5b') in 0.016609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 100.092007 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314892f28b0772f393a2cf2bc679729a') in 0.009785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 1.855299 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faba09b9d756b7a8e83191b4a4fbe8c') in 0.011296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 2.530826 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b11581846f8474bc9723f1cf37f8dd') in 0.006004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 1.599066 seconds.
-  path: Assets/Scenes/Teo Scene/Tree .prefab
-  artifactKey: Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree .prefab using Guid(eda7ec12a1c40af48a47a5fc54da132a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d234a5c09bbab3015c902023609edd') in 0.006151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 398.363645 seconds.
-  path: Assets/Scenes/Teo Scene/Tree.prefab
-  artifactKey: Guid(66c47f3d3daf1bc4ea06efab420f6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(66c47f3d3daf1bc4ea06efab420f6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042df97a0bf679ef878f35df867f1db6') in 0.012153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 102.857138 seconds.
-  path: Assets/Scenes/Teo Scene/Tree.prefab
-  artifactKey: Guid(66c47f3d3daf1bc4ea06efab420f6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(66c47f3d3daf1bc4ea06efab420f6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1407301970dc2a8a53103f8efdad409a') in 0.001934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.749944 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(10ab8eeffc09d294caaa04d341a594c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(10ab8eeffc09d294caaa04d341a594c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4cd4517e14114854b63ad2227b8e45') in 0.007104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 63.283229 seconds.
+  Time since last request: 133.087387 seconds.
   path: Assets/Scenes/Teo Scene/GameObject.prefab
   artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dfd0f858d11194b8d324016d780ef6') in 0.011925 seconds
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bc1172caa28744348b278870542709') in 0.015091 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 95.989650 seconds.
-  path: Assets/Scenes/Teo Scene/tree1.prefab
-  artifactKey: Guid(6ae5ea6c9d6a6834695edeffc7f8bfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/tree1.prefab using Guid(6ae5ea6c9d6a6834695edeffc7f8bfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ebcae2f7d2297f55d3aa337296f133') in 0.013412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 4.280376 seconds.
+  Time since last request: 99.829639 seconds.
   path: Assets/Scenes/Teo Scene/GameObject.prefab
   artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56d43da6b0af4db8119656d46d96e7b') in 0.001754 seconds
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192e0cd910694ce74ef4d34cfa77d536') in 0.011839 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 29
 ========================================================================
 Received Import Request.
-  Time since last request: 254.831484 seconds.
+  Time since last request: 15.259980 seconds.
   path: Assets/Scenes/Teo Scene/GameObject.prefab
   artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5544e6beb247e9f69a150319611e0da3') in 0.016206 seconds
+Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc99d9fbe38e54b3f5158921ed26791') in 0.011500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 340.320346 seconds.
+  path: Assets/Scenes/Teo Scene/tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fda430bc8a06d92abee250d2ece84b') in 0.011643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3687 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.7 MB). Loaded Objects now: 4214.
+Memory consumption went from 155.2 MB to 153.5 MB.
+Total: 4.512400 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.250800 ms MarkObjects: 2.956000 ms  DeleteObjects: 0.961000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 434.580315 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(3bc961b5dc95ad74e953a061777d412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(3bc961b5dc95ad74e953a061777d412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f7feb7418d6e103a763a17708b6c6e') in 0.002489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.320621 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad9c0b662a863edd054c94bd4019741') in 0.061332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 3.962248 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8f50abb50b40d3aadc75c7b85ab60d') in 0.007645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 37.667058 seconds.
-  path: Assets/Scenes/Teo Scene/GameObject.prefab
-  artifactKey: Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Teo Scene/GameObject.prefab using Guid(dc4aede57055114469d946973abe23a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1332c178934438bddf6020c7001bad27') in 0.008277 seconds
+  Time since last request: 16.504870 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add9d65782bae95d6b613190d1974e90') in 0.006986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.513068 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b1e715e506d42f180a39c8d45defe0') in 0.007155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.758231 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7829b56f76705301b6a38b3a7ee414da') in 0.011599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.920421 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f26eb9535a36f22ac730a92cada7896') in 0.005833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.645037 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67e0aef860b2d33dbcacae8d1520432') in 0.006267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.678021 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2c508e538364bfe10e8d662c11cc61') in 0.006098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 279.903956 seconds.
+  path: Assets/Scenes/Teo Scene/Tree.prefab
+  artifactKey: Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Teo Scene/Tree.prefab using Guid(3aa5d59317a4a594181b32872b2e54be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b962e248b02926060ff8c24e906462') in 0.007741 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18

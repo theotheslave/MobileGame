@@ -360,6 +360,8 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.Formats.Alembic.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.Formats.Alembic.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Mobile.AndroidLogcat.Editor.ref.dll"
