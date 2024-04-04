@@ -116,6 +116,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -359,6 +360,8 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Mobile.AndroidLogcat.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.Android.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.iOS.ref.dll"
@@ -392,7 +395,6 @@
 "Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs"
 "Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs"
 "Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs"
-"Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 
 /deterministic
