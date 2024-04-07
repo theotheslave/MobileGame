@@ -132,7 +132,7 @@ QualitySettings:
     useLegacyDetailDistribution: 1
     vSyncCount: 0
     realtimeGICPUUsage: 50
-    lodBias: 3.01
+    lodBias: 9.27
     maximumLODLevel: 0
     enableLODCrossFade: 1
     streamingMipmapsActive: 0
