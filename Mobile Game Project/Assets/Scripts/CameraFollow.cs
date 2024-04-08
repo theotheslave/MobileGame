@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
 
-    private Transform playerTransform = null;
+    private Transform targetTransform = null;
  
     [Range(1, 10)]
     [SerializeField] private float smoothSpeed = 5f;
@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
     
     private void Start()
     {
-        //playerTransform = GameObject.FindGameObjectsWithTag("Player").transform;
+        targetTransform = GameObject.FindGameObjectWithTag("Player").transform;
         
     }
 
@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
 
     private void UpdateCamePos()
     {
-        Vector3 desiredPos = playerTransform.TransformPoint(offset);
+        Vector3 desiredPos = targetTransform.TransformPoint(offset);
         Vector3 clampPosition = new Vector3(
             Mathf.Clamp(desiredPos.x, minValue.x, maxValue.x),
             Mathf.Clamp(desiredPos.y, minValue.y, maxValue.z),
@@ -43,8 +43,8 @@ public class CameraFollow : MonoBehaviour
             clampPosition,
             smoothSpeed * Time.deltaTime);
 
-        transform.position = smoothPos;
-       // transform.LookAt(targetTransform);
+       transform.position = smoothPos;
+       transform.LookAt(targetTransform);
 
 
 
