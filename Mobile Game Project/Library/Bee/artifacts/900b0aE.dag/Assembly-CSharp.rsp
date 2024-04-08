@@ -385,6 +385,7 @@
 "Assets/Scripts/ItemPickup.cs"
 "Assets/Scripts/Items.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/TextPickup.cs"
 -langversion:9.0
 
 /deterministic
