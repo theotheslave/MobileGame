@@ -2528,9 +2528,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoothSpeed: 5.18
-  offset: {x: 0, y: 0, z: 0}
-  minValue: {x: 0, y: 0, z: 0}
-  maxValue: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 5, z: -8}
+  minValue: {x: -20, y: -30, z: -90}
+  maxValue: {x: 20, y: 30, z: 90}
 --- !u!81 &985874120
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2598,13 +2598,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985874118}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.31531775, y: 0, z: 0, w: 0.9489862}
+  m_LocalPosition: {x: 1, y: 62.05, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 36.76, y: 0, z: 0}
 --- !u!1001 &1067858025
 PrefabInstance:
   m_ObjectHideFlags: 0
