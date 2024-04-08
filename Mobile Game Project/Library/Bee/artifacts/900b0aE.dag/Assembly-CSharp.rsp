@@ -380,6 +380,10 @@
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/PlayerController.cs"
 "Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/InventoryManager.cs"
+"Assets/Scripts/ItemController.cs"
+"Assets/Scripts/ItemPickup.cs"
+"Assets/Scripts/Items.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 

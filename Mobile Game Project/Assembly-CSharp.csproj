@@ -65,6 +65,10 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\InventoryManager.cs" />
+    <Compile Include="Assets\Scripts\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\Items.cs" />
+    <Compile Include="Assets\Scripts\ItemController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
