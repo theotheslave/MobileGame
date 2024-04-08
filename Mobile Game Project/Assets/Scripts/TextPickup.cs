@@ -27,6 +27,6 @@ public class TextPickup : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         UiObject.SetActive(false);
-        Destroy(CollectItem);
+        
     }
 }
