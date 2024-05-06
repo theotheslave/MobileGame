@@ -1,53 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ETouch = UnityEngine.InputSystem.EnchancedTouch;
+
 public class Movement : MonoBehaviour
 {
-
-    [SerializedField]
-    private Vector2 JoystickSize = new Vector2(300, 300);
-    [SerializedField]
-    private FloatingJoystick Joystick;
-    [SerializedField]
-    private UnityEngine.AI.NavMeshAgent Player;
-
-
-    private Finger MovementFinger;
-    private Vector2 MovementAmount;
+    public FixedJoystick joystick;
+    public CharacterController controller;
 
 
 
-private void OnEnable()
+    public Canvas inputCanvas;
+    public bool isJoystick;
+    public float movementspeed;
+    public float rotationSpeed;
+
+    private void Start()
     {
-        EnhancedTouchSupport.Enable();
-        ETouch.Touch.onFingerDown += Touch_onFingerDown;
-        ETouch.Touch.onFingerUp += Touch_onFingerUp;
-        ETouch.Touch.onFingerMove += Touch_onFingerMove;
+        EnableJoystickInput();
+
     }
 
-    private void OnDisable()
+
+    public void EnableJoystickInput()
     {
+        isJoystick = true;
+        inputCanvas.gameObject.SetActive(true);
 
 
-        ETouch.Touch.onFingerDown -= Touch_onFingerDown;
-        ETouch.Touch.onFingerUp -= Touch_onFingerUp;
-        ETouch.Touch.onFingerMove -= Touch_onFingerMove;
-        EnhancedTouchSupport.Disable;
+
     }
 
-    private void HandleFingerDown (Finger TouchedFinger)
+
+
+    private void Update()
     {
-        if (MovementFinger == null && TouchedFinger.screenPosition.x <= Screen.width / 2f)
+
+        if (isJoystick)
         {
+            var movementDirection = new Vector3(joystick.Direction.x, 0.0f, joystick.Direction.y);
+            controller.SimpleMove(movementDirection * movementspeed);
+            if(movementDirection.sqrMagnitude <= 0)
+            {
 
+                return;
 
+            }
+
+            var targetDirection = Vector3.RotateTowards(controller.transform.forward, movementDirection, rotationSpeed*Time.deltaTime, 0.0f);
+            controller.transform.rotation = Quaternion.LookRotation(targetDirection);
         }
 
 
-
-
-
     }
-
 }
