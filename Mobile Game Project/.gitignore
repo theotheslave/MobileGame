@@ -50,6 +50,8 @@
 *.opendb
 *.VC.db
 *.log
+*.txt
+*.mvfrm
 
 # Unity3D generated meta files
 *.pidb.meta
