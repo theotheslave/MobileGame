@@ -203,6 +203,7 @@ Received Import Request.
 Start importing Assets/New Terrain.asset using Guid(10ab8eeffc09d294caaa04d341a594c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acb3f13c69b45f5756f5676fcc13ddb') in 0.018707 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -421,6 +422,13 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.474 seconds
 Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+=======
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+>>>>>>> main
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -431,13 +439,20 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.928 seconds
 Domain Reload Profiling: 1402ms
 	BeginReloadAssembly (184ms)
+=======
+- Finished resetting the current domain, in  1.055 seconds
+Domain Reload Profiling: 1498ms
+	BeginReloadAssembly (153ms)
+>>>>>>> main
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (47ms)
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (12ms)
@@ -684,6 +699,42 @@ Unloading 3691 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 41 unused Assets / (0.8 MB). Loaded Objects now: 4303.
 Memory consumption went from 174.0 MB to 173.2 MB.
 Total: 5.810900 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.278000 ms MarkObjects: 4.384300 ms  DeleteObjects: 0.793800 ms)
+=======
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1056ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Failed to load shader (instanceID 454, GUID e4e5d566a8aa9914c906555a6857fcb9)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3690 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 4225.
+Memory consumption went from 162.0 MB to 161.2 MB.
+Total: 4.972000 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.534800 ms MarkObjects: 3.235500 ms  DeleteObjects: 0.666100 ms)
+>>>>>>> main
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
