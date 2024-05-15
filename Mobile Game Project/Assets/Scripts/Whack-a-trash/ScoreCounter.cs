@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class ScoreCounter : MonoBehaviour
 {
+    public GameObject cam1;
+    public GameObject cam2;
+     
     public int score;
     // Start is called before the first frame update
     void Start()
     {
-        score = 1;
+        cam1.SetActive(true);
+        cam2.SetActive(false);
+        score = 0;
     }
 
     // Update is called once per frame
@@ -36,5 +41,15 @@ public class ScoreCounter : MonoBehaviour
         {
             Debug.Log(score++);
         }
+        if(score== 10)
+        {
+
+            cam1.SetActive(false);
+            cam2.SetActive(true);
+
+        }
     }
+   
+
+
 }
