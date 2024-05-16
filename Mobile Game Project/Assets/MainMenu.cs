@@ -13,4 +13,9 @@ public class MainMenu : MonoBehaviour
         you can find the order of the scenes under 'file' and 'build settings' */
         
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
