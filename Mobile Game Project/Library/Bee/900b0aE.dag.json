@@ -30225,8 +30225,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2300117,
       "PayloadLength": 34734,
+=======
+      "PayloadOffset": 2139336,
+      "PayloadLength": 31306,
+>>>>>>> main
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -30238,7 +30243,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2334937,
+=======
+      "PayloadOffset": 2170728,
+>>>>>>> main
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -30508,17 +30517,26 @@
         "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs",
         "Assets/MainMenu.cs",
         "Assets/PlayerController.cs",
-        "Assets/Scripts/AI smart.cs",
+        "Assets/Scripts/AIsmart.cs",
         "Assets/Scripts/CameraFollow.cs",
         "Assets/Scripts/InventoryManager.cs",
         "Assets/Scripts/ItemController.cs",
         "Assets/Scripts/ItemPickup.cs",
         "Assets/Scripts/Items.cs",
         "Assets/Scripts/Movement.cs",
-        "Assets/Scripts/PlayerMovement.cs",
         "Assets/Scripts/TextPickup.cs",
+<<<<<<< HEAD
         "C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+=======
+        "Assets/Scripts/Whack-a-trash/MoveTowards.cs",
+        "Assets/Scripts/Whack-a-trash/RandomSpawn.cs",
+        "Assets/Scripts/Whack-a-trash/ScoreCounter.cs",
+        "Assets/Scripts/Whack-a-trash/TrashDestroy.cs",
+        "Assets/Scripts/Whack-a-trash/WallDestroyer.cs",
+        "D:/Unity files/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "D:/Unity files/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+>>>>>>> main
         "Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "Outputs": [
@@ -30845,8 +30863,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2335032,
       "PayloadLength": 10660,
+=======
+      "PayloadOffset": 2170823,
+      "PayloadLength": 10900,
+>>>>>>> main
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
@@ -31120,9 +31143,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2345804,
       "PayloadLength": 62,
       "PayloadDebugContentSnippet": "C:\\Users\\Menas\\Documents\\GitHu",
+=======
+      "PayloadOffset": 2181835,
+      "PayloadLength": 33,
+      "PayloadDebugContentSnippet": "D:\\MobileGame\\Mobile Game Proj",
+>>>>>>> main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
@@ -31133,8 +31162,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2345958,
       "PayloadLength": 37267,
+=======
+      "PayloadOffset": 2181960,
+      "PayloadLength": 33453,
+>>>>>>> main
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -31146,7 +31180,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.rsp2",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2383318,
+=======
+      "PayloadOffset": 2215506,
+>>>>>>> main
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -31511,8 +31549,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2383420,
       "PayloadLength": 11969,
+=======
+      "PayloadOffset": 2215608,
+      "PayloadLength": 12211,
+>>>>>>> main
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
