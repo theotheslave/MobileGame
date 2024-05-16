@@ -57,7 +57,7 @@ public class RandomSpawn : MonoBehaviour {
             
             Debug.Log(score++);
         }
-        if (score >= 10)
+        if (score == 10)
         {
          
             stopSpawning = true;
