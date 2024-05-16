@@ -381,20 +381,19 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/MainMenu.cs"
+"Assets/Minimap Folder/MinimapCamera.cs"
 "Assets/PlayerController.cs"
-"Assets/Scripts/AIsmart.cs"
+"Assets/Scripts/AI smart.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/InventoryManager.cs"
 "Assets/Scripts/ItemController.cs"
 "Assets/Scripts/ItemPickup.cs"
 "Assets/Scripts/Items.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/TextPickup.cs"
 "Assets/Scripts/Whack-a-trash/MoveTowards.cs"
 "Assets/Scripts/Whack-a-trash/RandomSpawn.cs"
-"Assets/Scripts/Whack-a-trash/ScoreCounter.cs"
-"Assets/Scripts/Whack-a-trash/TrashDestroy.cs"
-"Assets/Scripts/Whack-a-trash/WallDestroyer.cs"
 -langversion:9.0
 
 /deterministic
