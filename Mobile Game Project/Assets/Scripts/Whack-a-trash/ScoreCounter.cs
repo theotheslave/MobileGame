@@ -37,17 +37,13 @@ public class ScoreCounter : MonoBehaviour
 
     public void CurrentClickedGameObject(GameObject gameObject)
     {
-        if (gameObject.tag == "trash")
+        if (gameObject.tag == "bucket")
         {
-            Debug.Log(score++);
-        }
-        if(score== 10)
-        {
-
             cam1.SetActive(false);
             cam2.SetActive(true);
-
         }
+      
+        
     }
    
 
