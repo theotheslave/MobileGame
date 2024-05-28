@@ -381,7 +381,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/MainMenu.cs"
-"Assets/Minimap Folder/MinimapCamera.cs"
+"Assets/Minimap Folder/MinimapCameraNew.cs"
 "Assets/PlayerController.cs"
 "Assets/Scripts/AI smart.cs"
 "Assets/Scripts/CameraFollow.cs"
