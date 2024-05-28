@@ -29,20 +29,20 @@ public class ScoreCounter : MonoBehaviour
                 if (raycastHit.transform != null)
                 {
                     //Our custom method. 
-                    CurrentClickedGameObject(raycastHit.transform.gameObject);
+                    OnMouseDown(raycastHit.transform.gameObject);
                 }
             }
         }
     }
 
-    public void CurrentClickedGameObject(GameObject gameObject)
+    public void OnMouseDown(GameObject gameObject)
     {
         if (gameObject.tag == "bucket")
         {
             cam1.SetActive(false);
             cam2.SetActive(true);
         }
-      
+        Debug.Log("kur");
         
     }
    
