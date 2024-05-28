@@ -19,14 +19,11 @@ public class TextPickup : MonoBehaviour
 
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void OnTriggerExit(Collider other)
-    {
-        UiObject.SetActive(false);
-        
-    }
+  
+        void OnTriggerExit(Collider other)
+        {
+            UiObject.SetActive(false);
+
+        }
+    
 }

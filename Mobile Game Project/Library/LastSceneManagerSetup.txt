@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TestScene.unity
+=======
+- path: Assets/Scenes/StartArea.unity
+>>>>>>> Menas
   isLoaded: 1
   isActive: 1
   isSubScene: 0
