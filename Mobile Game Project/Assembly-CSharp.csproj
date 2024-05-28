@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Whack-a-trash\RandomSpawn.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Whack-a-trash\MoveTowards.cs" />
+    <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
