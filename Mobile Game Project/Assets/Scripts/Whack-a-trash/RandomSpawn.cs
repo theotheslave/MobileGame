@@ -18,7 +18,7 @@ public class RandomSpawn : MonoBehaviour {
         score = 0;
         if (score == 10)
         {
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(-3, 3), 2, -14);
+            Vector3 randomSpawnPosition = new Vector3(-9, 6, Random.Range(24, 30));
             Instantiate(bucket, randomSpawnPosition, Quaternion.identity);
 
             stopSpawning = true;
@@ -31,7 +31,7 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(-3, 3), 2,-14);
+        Vector3 randomSpawnPosition = new Vector3(-9, 6, Random.Range(24, 30));
         Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
         if (stopSpawning)
         {

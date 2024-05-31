@@ -11,7 +11,7 @@ public class WallDestroyer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.tag == ("trash"))
         {

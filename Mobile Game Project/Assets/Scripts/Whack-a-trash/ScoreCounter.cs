@@ -11,8 +11,7 @@ public class ScoreCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam1.SetActive(true);
-        cam2.SetActive(false);
+        
         score = 0;
     }
 
@@ -41,8 +40,9 @@ public class ScoreCounter : MonoBehaviour
         {
             cam1.SetActive(false);
             cam2.SetActive(true);
+            Debug.Log("kur");
         }
-        Debug.Log("kur");
+       
         
     }
    
