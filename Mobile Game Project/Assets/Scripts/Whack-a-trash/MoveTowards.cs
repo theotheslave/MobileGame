@@ -18,7 +18,7 @@ public class MoveTowards : MonoBehaviour
     {
 
         timer += Time.deltaTime;
-        transform.Translate(0,0,1 * speed * Time.deltaTime);
+        transform.Translate(1 * speed * Time.deltaTime, 0,0 );
         
         if(timer == randomTimer)
         {
@@ -26,5 +26,15 @@ public class MoveTowards : MonoBehaviour
             speed = 10f;
 
         }
-    }
+
+
+        void OnTriggerEnter(Collider collision)
+        {
+            if (collision.gameObject.tag == ("wall"))
+            {
+                Destroy(gameObject);
+                Debug.Log("Cool");
+            }
+        }
+        }
 }

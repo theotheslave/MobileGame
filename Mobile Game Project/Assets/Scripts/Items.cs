@@ -8,5 +8,5 @@ public class Item : ScriptableObject
     public int id;
     public string itemName;
     public int value;
-    public Sprite ican;
+    public Sprite icon;
 }

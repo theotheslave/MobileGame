@@ -11,8 +11,7 @@ public class ScoreCounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam1.SetActive(true);
-        cam2.SetActive(false);
+        
         score = 0;
     }
 
@@ -29,25 +28,22 @@ public class ScoreCounter : MonoBehaviour
                 if (raycastHit.transform != null)
                 {
                     //Our custom method. 
-                    CurrentClickedGameObject(raycastHit.transform.gameObject);
+                    OnMouseDown(raycastHit.transform.gameObject);
                 }
             }
         }
     }
 
-    public void CurrentClickedGameObject(GameObject gameObject)
+    public void OnMouseDown(GameObject gameObject)
     {
-        if (gameObject.tag == "trash")
+        if (gameObject.tag == "bucket")
         {
-            Debug.Log(score++);
-        }
-        if(score== 10)
-        {
-
             cam1.SetActive(false);
             cam2.SetActive(true);
-
+            Debug.Log("kur");
         }
+       
+        
     }
    
 

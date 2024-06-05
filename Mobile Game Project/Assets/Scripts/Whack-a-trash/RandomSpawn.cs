@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RandomSpawn : MonoBehaviour { 
     public GameObject[] spawnee;
+    public GameObject bucket;
     public bool stopSpawning = false;
     public float spawnDelay;
     public float spawnTime;
@@ -15,6 +16,14 @@ public class RandomSpawn : MonoBehaviour {
     {
         InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
         score = 0;
+        if (score == 10)
+        {
+            Vector3 randomSpawnPosition = new Vector3(-9, 6, Random.Range(24, 30));
+            Instantiate(bucket, randomSpawnPosition, Quaternion.identity);
+
+            stopSpawning = true;
+        }
+
     }
 
     // Update is called once per frame
@@ -22,7 +31,7 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(-3, 3), 2,-14);
+        Vector3 randomSpawnPosition = new Vector3(-9, 6, Random.Range(24, 30));
         Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
         if (stopSpawning)
         {
@@ -42,7 +51,7 @@ public class RandomSpawn : MonoBehaviour {
             {
                 if (raycastHit.transform != null)
                 {
-                    //Our custom method. 
+                    //Custom method
                     CurrentClickedGameObject(raycastHit.transform.gameObject);
                 }
             }
@@ -57,10 +66,6 @@ public class RandomSpawn : MonoBehaviour {
             
             Debug.Log(score++);
         }
-        if (score == 10)
-        {
-         
-            stopSpawning = true;
-        }
+       
     }
 }
