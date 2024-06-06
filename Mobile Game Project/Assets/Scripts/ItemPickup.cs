@@ -4,19 +4,30 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
+    
     public Item Item;
-
+    private bool pickable = false; 
    public void Pickup()
     {
+        if ( pickable = true){
         InventoryManager.Instance.Add(Item);
         Destroy(gameObject);
+        }
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "TestObject")
+        if (collision.gameObject.name == "Player")
         {
-            Pickup();
+            
+            pickable = true;
+            Debug.Log("help");
+        }
+        else
+        {
+            pickable = false;
+            
+            Debug.Log("WTF");
         }
     }
 }
