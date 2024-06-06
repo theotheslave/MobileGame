@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 46
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,9 +337,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 105.400024}
-    m_SelectedIDs: d2620000
-    m_LastClickedID: 25298
-    m_ExpandedIDs: 000000008262000000ca9a3b
+    m_SelectedIDs: d6620000
+    m_LastClickedID: 25302
+    m_ExpandedIDs: 000000008662000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082620000
+    m_ExpandedIDs: 0000000086620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,7 +511,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 98bffffff8faffffa0600000ce600000ec6000003a61000076610000
+      m_ExpandedIDs: b4e3fffff8faffffce600000ec6000003a610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -892,9 +892,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.388267, y: 7.470597, z: 3.7894711}
+    m_Target: {x: -11.801478, y: 8.536498, z: 6.320876}
     speed: 2
-    m_Value: {x: -9.388267, y: 7.470597, z: 3.7894711}
+    m_Value: {x: -11.801478, y: 8.536498, z: 6.320876}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -944,9 +944,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.33762735, y: 0.05501853, z: -0.019772854, w: -0.93946254}
   m_Size:
-    m_Target: 2.194462
+    m_Target: 1.1208402
     speed: 2
-    m_Value: 2.194462
+    m_Value: 1.1208402
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1039,7 +1039,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
