@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +19,12 @@ public class ButtonEnable : MonoBehaviour
         {
             button.SetActive(true);
         }
-        else
+      
+    }
+
+    void OnTriggerExit(Collider collider)
+    {
+        if (collider.gameObject.name == "Player")
         {
             button.SetActive(false);
         }
