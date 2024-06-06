@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\ItemController.cs" />
     <Compile Include="Assets\Minimap Folder\MinimapCameraNew.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\MenuScript.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
