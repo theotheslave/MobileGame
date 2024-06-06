@@ -30681,8 +30681,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2139336,
       "PayloadLength": 31464,
+=======
+      "PayloadOffset": 2300117,
+      "PayloadLength": 34985,
+>>>>>>> Menas
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -30694,7 +30699,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2170886,
+=======
+      "PayloadOffset": 2335188,
+>>>>>>> Menas
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -30966,18 +30975,21 @@
         "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs",
         "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs",
         "Assets/MainMenu.cs",
+        "Assets/MenuScript.cs",
         "Assets/Minimap Folder/MinimapCameraNew.cs",
         "Assets/PauseMenu.cs",
         "Assets/PlayerController.cs",
         "Assets/Scripts/AI smart.cs",
         "Assets/Scripts/ButtonEnable.cs",
         "Assets/Scripts/CameraFollow.cs",
+        "Assets/Scripts/Dialogue.cs",
         "Assets/Scripts/InventoryManager.cs",
         "Assets/Scripts/ItemController.cs",
         "Assets/Scripts/ItemPickup.cs",
         "Assets/Scripts/Items.cs",
         "Assets/Scripts/Movement.cs",
         "Assets/Scripts/PlayerMovement.cs",
+        "Assets/Scripts/StartDialogue.cs",
         "Assets/Scripts/TextPickup.cs",
         "Assets/Scripts/Whack-a-trash/CameraSwap1.cs",
         "Assets/Scripts/Whack-a-trash/MoveTowards.cs",
@@ -31312,8 +31324,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2170981,
       "PayloadLength": 10900,
+=======
+      "PayloadOffset": 2335283,
+      "PayloadLength": 10660,
+>>>>>>> Menas
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
@@ -31593,9 +31610,15 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp-Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2181993,
       "PayloadLength": 33,
       "PayloadDebugContentSnippet": "D:\\MobileGame\\Mobile Game Proj",
+=======
+      "PayloadOffset": 2346055,
+      "PayloadLength": 62,
+      "PayloadDebugContentSnippet": "C:\\Users\\Menas\\Documents\\GitHu",
+>>>>>>> Menas
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt"
@@ -31606,8 +31629,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2182118,
       "PayloadLength": 33453,
+=======
+      "PayloadOffset": 2346209,
+      "PayloadLength": 37267,
+>>>>>>> Menas
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -31619,7 +31647,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.rsp2",
       "DisplayName": "Writing Assembly-CSharp-Editor.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2215664,
+=======
+      "PayloadOffset": 2383569,
+>>>>>>> Menas
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -31987,8 +32019,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp-Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 2215766,
       "PayloadLength": 12211,
+=======
+      "PayloadOffset": 2383671,
+      "PayloadLength": 11969,
+>>>>>>> Menas
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
