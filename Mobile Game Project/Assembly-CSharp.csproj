@@ -61,12 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Scripts\StartDialogue.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\Whack-a-trash\RandomSpawn.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Whack-a-trash\MoveTowards.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\TextPickup.cs" />
