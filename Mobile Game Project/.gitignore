@@ -40,6 +40,9 @@ ExportedObj/
 *.VC.db
 
 
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 
 
 sysinfo.txt

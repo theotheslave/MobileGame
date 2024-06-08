@@ -1,39 +1,22 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    
     public Item Item;
-    private bool pickable = false; 
-   
 
-    private void OnTiggerEnter(Collider collision)
+   public void Pickup()
     {
-        if (collision.gameObject.name == "Player")
-        {
-            
-            pickable = true;
-            Debug.Log("help");
-        }
+        InventoryManager.Instance.Add(Item);
+        Destroy(gameObject);
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.name == "Player")
+        if (collision.gameObject.name == "TestObject")
         {
-            
-            pickable = false;
-            Debug.Log("help");
-        }
-    }
-    public void Pickup()
-    {
-        if ( pickable = true){
-            InventoryManager.Instance.Add(Item);
-            Destroy(gameObject);
+            Pickup();
         }
     }
 }
