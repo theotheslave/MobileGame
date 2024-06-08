@@ -18,7 +18,7 @@ public class MoveTowards : MonoBehaviour
     {
 
         timer += Time.deltaTime;
-        transform.Translate(0,0,1 * speed * Time.deltaTime);
+        transform.Translate(1 * speed * Time.deltaTime,0,1 );
         
         if(timer == randomTimer)
         {

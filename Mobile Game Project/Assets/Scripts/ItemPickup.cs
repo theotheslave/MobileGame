@@ -31,7 +31,7 @@ public class ItemPickup : MonoBehaviour
     }
     public void Pickup()
     {
-        if ( pickable = true){
+        if ( pickable == true){
             InventoryManager.Instance.Add(Item);
             Destroy(gameObject);
         }

@@ -4,17 +4,36 @@ using UnityEngine;
 
 public class RandomSpawn : MonoBehaviour { 
     public GameObject[] spawnee;
+    public GameObject trash;
     public bool stopSpawning = false;
     public float spawnDelay;
     public float spawnTime;
     public int score;
-    
+    public GameObject camera1;
+    public GameObject camera2;
 
-    // Start is called before the first frame update
+    public Camera lakeCamera;
+        // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
+        InvokeRepeating("SpawnObject", spawnDelay, spawnTime);
         score = 0;
+        
+    }
+
+    void StartSpawning()
+    {
+        
+      
+        
+        
+
+        if (score >= 10)
+        {
+            Invoke("SpawnBucket", spawnDelay);
+            
+        }
+        
     }
 
     // Update is called once per frame
@@ -22,9 +41,22 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
+        Vector3 randomSpawnPosition = new Vector3(-9, 2,Random.Range(-9, 0));
+        Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
+        if (stopSpawning == true)
+        {
+            CancelInvoke("SpawnObject");
+        }
+    }
+    
+    
+    void SpawnBucket()
+    {
+
+        int randomIndex = Random.Range(0, spawnee.Length);
         Vector3 randomSpawnPosition = new Vector3(Random.Range(-3, 3), 2,-14);
         Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
-        if (stopSpawning)
+        if (stopSpawning == true)
         {
             CancelInvoke("SpawnObject");
         }
@@ -37,7 +69,7 @@ public class RandomSpawn : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit raycastHit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.current.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out raycastHit, 100f))
             {
                 if (raycastHit.transform != null)
@@ -47,6 +79,8 @@ public class RandomSpawn : MonoBehaviour {
                 }
             }
         }
+
+      
     }
 
 
@@ -57,10 +91,14 @@ public class RandomSpawn : MonoBehaviour {
             
             Debug.Log(score++);
         }
-        if (score == 10)
+
+        if (gameObject.tag == "bucket")
         {
-         
             stopSpawning = true;
+            camera1.SetActive(true);
+            camera2.SetActive(false);
+
         }
+        
     }
 }

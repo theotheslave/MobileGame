@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638512837612907449
+      ticks: 638534329465188683
     m_Hash: 2992823768
   m_LockFileStatus:
     m_FilePath: D:/MobileGame/Mobile Game Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638512837612917424
+      ticks: 638534329465197725
     m_Hash: 2507889134
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
