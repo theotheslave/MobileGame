@@ -65,9 +65,11 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
 
         }
-        else 
+         else 
         {
             
+            prevRabbit.SetActive(false);
+            nextRabbit.SetActive(true); 
             text.SetActive(false);
         }
     }

@@ -8,7 +8,7 @@ public class MenuScript1 : MonoBehaviour
 {
     public void ReturnGame()
     {
-        SceneManager.LoadScene("StartArea");
+        SceneManager.LoadScene("TestScene");
     }
 }
 

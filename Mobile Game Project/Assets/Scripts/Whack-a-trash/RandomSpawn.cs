@@ -112,6 +112,7 @@ public class RandomSpawn : MonoBehaviour {
             player.SetActive(true);
             lake.SetActive(false);
             trash.SetActive(true);
+            Destroy(gameObject);
         }
         
     }
