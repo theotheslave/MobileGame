@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class RandomSpawn : MonoBehaviour { 
@@ -11,11 +12,16 @@ public class RandomSpawn : MonoBehaviour {
     public int score;
     public GameObject camera1;
     public GameObject camera2;
+    public GameObject player;
+    public GameObject lake;
+    
+    public Camera MainCamera;
 
-    public Camera lakeCamera;
+    public Camera Camera;
         // Start is called before the first frame update
     void Start()
     {
+        
         InvokeRepeating("SpawnObject", spawnDelay, spawnTime);
         score = 0;
         
@@ -41,11 +47,11 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
-        Vector3 randomSpawnPosition = new Vector3(-9, 2,Random.Range(-9, 0));
+        Vector3 randomSpawnPosition = new Vector3(3, 1,Random.Range(40, 50));
         Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
         if (stopSpawning == true)
         {
-            CancelInvoke("SpawnObject");
+            CancelInvoke(nameof(SpawnObject));
         }
     }
     
@@ -54,22 +60,26 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(-3, 3), 2,-14);
-        Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
+        Vector3 randomSpawnPosition = new Vector3(3, 1,Random.Range(40,50));
+        Instantiate(trash, randomSpawnPosition, Quaternion.identity);
         if (stopSpawning == true)
         {
-            CancelInvoke("SpawnObject");
+            CancelInvoke(nameof(SpawnObject));
         }
     }
 
 
     void Update()
     {
+        if (camera2.activeInHierarchy)
+        {
+            Camera = Camera.main;
+        }
         //Check for mouse click 
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit raycastHit;
-            Ray ray = Camera.current.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out raycastHit, 100f))
             {
                 if (raycastHit.transform != null)
@@ -84,20 +94,24 @@ public class RandomSpawn : MonoBehaviour {
     }
 
 
-    public void CurrentClickedGameObject(GameObject gameObject)
+    public void CurrentClickedGameObject(GameObject destroyable)
     {
-        if (gameObject.tag == "trash")
+        if (destroyable.CompareTag("trash"))
         {
             
             Debug.Log(score++);
         }
 
-        if (gameObject.tag == "bucket")
+        if (score >= 10)
         {
+            
+            MainCamera= Camera.main;
             stopSpawning = true;
             camera1.SetActive(true);
             camera2.SetActive(false);
-
+            player.SetActive(true);
+            lake.SetActive(false);
+            trash.SetActive(true);
         }
         
     }

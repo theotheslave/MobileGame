@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraSwap1 : MonoBehaviour
 {
+
+    public GameObject player;
     public GameObject cam1;
     public GameObject cam2;
 
@@ -17,6 +19,7 @@ public class CameraSwap1 : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+            player.SetActive(false);
             cam1.SetActive(false);
             cam2.SetActive(true);
         }
