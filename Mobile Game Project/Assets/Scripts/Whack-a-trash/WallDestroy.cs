@@ -12,12 +12,12 @@ public class WallDestroyer : MonoBehaviour
         // Update is called once per frame
         void OnTriggerEnter(Collider collision)
         {
-            if(collision.gameObject.tag == ("trash"))
+            if(collision.CompareTag("trash"))
             {
                 Destroy(collision.gameObject);
             }
 
-            if(collision.gameObject.tag == ("bucket"))
+            if(collision.CompareTag("bucket"))
             {
                 Destroy(collision.gameObject);
             }

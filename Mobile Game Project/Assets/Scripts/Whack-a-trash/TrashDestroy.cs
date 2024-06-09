@@ -9,4 +9,20 @@ public class TrashDestroy : MonoBehaviour
         Destroy(gameObject);
 
 
-    }}
+    }
+    
+    void OnTriggerEnter(Collider collision)
+    {
+        if(collision.CompareTag("wall"))
+        {
+            Destroy(gameObject);
+        }
+
+      
+    }
+
+
+    
+}
+
+
