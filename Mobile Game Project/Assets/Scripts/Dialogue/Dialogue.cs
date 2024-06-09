@@ -5,6 +5,8 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    public GameObject nextRabbit;
+    public GameObject prevRabbit;
     public GameObject text;
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -25,6 +27,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         if (Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
@@ -62,8 +65,9 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
 
         }
-        else
+        else 
         {
+            
             text.SetActive(false);
         }
     }
