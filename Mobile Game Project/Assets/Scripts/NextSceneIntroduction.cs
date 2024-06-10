@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuScript1 : MonoBehaviour
+public class NextSceneIntroduction : MonoBehaviour
 {
-    public void ReturnGame()
+    public void NextScene()
     {
         SceneManager.LoadScene("TestScene");
     }
-}
 
+}
