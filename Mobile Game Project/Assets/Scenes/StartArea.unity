@@ -547,7 +547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aa0281df4f4ecdf44be2212e3e4e373d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 519c496841dacd84b88518add4acfe09, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THis is a wildlife test for our game
+  m_text: This is a wildlife test for our game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32ce01dd29de32648affbefdf8f1f498, type: 2}
   m_sharedMaterial: {fileID: -4222008153420306898, guid: 32ce01dd29de32648affbefdf8f1f498,
@@ -3547,7 +3547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &846150602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3645,9 +3645,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 497528751}
   lines:
-  - 
-  - 
-  textSpeed: 0.5
+  - This is a wildlife test for our game
+  - We hope you enjoy it!
+  textSpeed: 10
 --- !u!1 &959302356
 GameObject:
   m_ObjectHideFlags: 0
