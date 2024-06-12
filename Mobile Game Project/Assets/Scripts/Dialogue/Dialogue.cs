@@ -11,16 +11,19 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-
+    public GameObject UI;
+    public GameObject Button;
     private int index;
 
     // Start is called before the first frame update
     public void Start()
     {
+      
         if (text.activeInHierarchy)
         {
             textComponent.text = string.Empty;
             StartDialogue();
+            
         }
     }
 
@@ -44,7 +47,8 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
-        
+        UI.SetActive(false);    
+
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -71,6 +75,8 @@ public class Dialogue : MonoBehaviour
             prevRabbit.SetActive(false);
             nextRabbit.SetActive(true); 
             text.SetActive(false);
+            UI.SetActive(true);
+            Button.SetActive(false);
         }
     }
 }

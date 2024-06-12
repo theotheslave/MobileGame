@@ -14,7 +14,8 @@ public class RandomSpawn : MonoBehaviour {
     public GameObject camera2;
     public GameObject player;
     public GameObject lake;
-    
+    public GameObject lake1;
+    public GameObject UI;
     public Camera MainCamera;
 
     public Camera Camera;
@@ -47,7 +48,7 @@ public class RandomSpawn : MonoBehaviour {
     {
 
         int randomIndex = Random.Range(0, spawnee.Length);
-        Vector3 randomSpawnPosition = new Vector3(3, 1,Random.Range(40, 50));
+        Vector3 randomSpawnPosition = new Vector3(119, 1,Random.Range(10, 20));
         Instantiate(spawnee[randomIndex], randomSpawnPosition, Quaternion.identity);
         if (stopSpawning == true)
         {
@@ -111,8 +112,10 @@ public class RandomSpawn : MonoBehaviour {
             camera2.SetActive(false);
             player.SetActive(true);
             lake.SetActive(false);
+            lake1.SetActive(true);
             trash.SetActive(true);
             Destroy(gameObject);
+            UI.SetActive(true);
         }
         
     }

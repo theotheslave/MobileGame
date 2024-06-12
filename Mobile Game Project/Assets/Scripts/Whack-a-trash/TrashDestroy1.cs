@@ -28,7 +28,7 @@ public class TrashDestroy1 : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= 20)
+        if (timer >= 9)
         {
             Destroy(gameObject);
         }

@@ -8,7 +8,7 @@ public class CameraSwap2 : MonoBehaviour
     public GameObject player;
     public GameObject cam1;
     public GameObject cam2;
-
+    public GameObject UI;
     void Start()
     {
 
@@ -22,6 +22,7 @@ public class CameraSwap2 : MonoBehaviour
             player.SetActive(false);
             cam1.SetActive(false);
             cam2.SetActive(true);
+            UI.SetActive(false);
         }
     }
 }

@@ -7,7 +7,7 @@ public class NextSceneIntroduction : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("LakeScene");
     }
 
 }

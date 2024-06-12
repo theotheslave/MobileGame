@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Introduction.unity
     guid: 3cf12d0fe7df53a4ebb20ad0ad92bb85
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
+    path: Assets/Scenes/LakeScene.unity
     guid: 8fdb8f17268e6404bab6885988505ec5
   - enabled: 1
     path: Assets/Scenes/StartArea.unity
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/Scenes/HaideScene.unity
+    guid: dfec7727f61156c4d93a9b1a5ee3f9bb
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
       guid: ee847198beb338647a190a07cb4e1e35, type: 2}

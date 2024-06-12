@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4182443185038813390
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 43.007263
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.672321
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.766754
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      propertyPath: m_Name
+      value: FlowerPurple
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5272039132172535572}
+  m_SourcePrefab: {fileID: 100100000, guid: b3ee423e4a7e06444af3c17cc6c06eb8, type: 3}
+--- !u!23 &3299608328864232522 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4182443185038813390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3948087024899118495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b3ee423e4a7e06444af3c17cc6c06eb8,
+    type: 3}
+  m_PrefabInstance: {fileID: 4182443185038813390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &5272039132172535572
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3948087024899118495}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3299608328864232522}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3299608328864232522}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3299608328864232522}
+  m_Enabled: 1
