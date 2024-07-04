@@ -15,4 +15,8 @@ MonoBehaviour:
   id: 1
   itemName: TestObject
   value: 10
+<<<<<<< HEAD
   icon: {fileID: 21300000, guid: 8782bbd94ec24764483fdc5787f3d132, type: 3}
+=======
+  icon: {fileID: 0}
+>>>>>>> Teo-from-menas

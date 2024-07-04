@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 2560
     height: 1397
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
+=======
+  m_Title: Inspector
+>>>>>>> Teo-from-menas
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 117
+=======
+  controlID: 108
+>>>>>>> Teo-from-menas
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,6 +72,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1955
     y: 0
     width: 605
@@ -71,6 +80,15 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
+=======
+    x: 1989
+    y: 0
+    width: 571
+    height: 1347
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+>>>>>>> Teo-from-menas
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -92,11 +110,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 345
     height: 785
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
+=======
+    width: 390
+    height: 878
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+>>>>>>> Teo-from-menas
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -117,12 +143,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 785
     width: 1955
     height: 562
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 13}
+=======
+    y: 878
+    width: 1989
+    height: 469
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
+>>>>>>> Teo-from-menas
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
@@ -218,12 +253,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1955
+=======
+    width: 1989
+>>>>>>> Teo-from-menas
     height: 1347
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 45
+=======
+  controlID: 50
+>>>>>>> Teo-from-menas
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +286,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1955
     height: 785
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 46
+=======
+    width: 1989
+    height: 878
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 51
+>>>>>>> Teo-from-menas
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,10 +316,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 345
     y: 0
     width: 1610
     height: 785
+=======
+    x: 390
+    y: 0
+    width: 1599
+    height: 878
+>>>>>>> Teo-from-menas
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -334,9 +393,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 858
     width: 1954
     height: 541
+=======
+    y: 951
+    width: 1988
+    height: 448
+>>>>>>> Teo-from-menas
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -372,10 +437,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 986e0000
     m_LastClickedID: 28312
     m_ExpandedIDs: 000000009c620000ec620000f0620000f8620000fa620000fc620000b6630000dc7c0000e87c0000267e000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 196}
+    m_SelectedIDs: 806a0000
+    m_LastClickedID: 27264
+    m_ExpandedIDs: 00000000f85f0000fc5f00007e6a0000806a0000826a0000846a0000c86a0000046b00000ab5000000ca9a3b
+>>>>>>> Teo-from-menas
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +475,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000009c620000
+=======
+    m_ExpandedIDs: 000000007e6a0000806a0000826a0000846a0000
+>>>>>>> Teo-from-menas
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -431,7 +507,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 765f0000
     m_LastClickedInstanceID: 24438
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300000862000064620000048800004e630000aa690000a884000000000000
+=======
+    m_ExpandedInstanceIDs: c6230000186100000ac100000cc100001a610000c26500000e680000de6c0000066d000058600000a4640000c4650000b466000000680000ba60000090bbffff988100003c6a000000000000b8630000dc6f000078640000eabe0000
+>>>>>>> Teo-from-menas
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,9 +560,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1955
     y: 73
     width: 604
+=======
+    x: 1989
+    y: 73
+    width: 570
+>>>>>>> Teo-from-menas
     height: 1326
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -500,8 +586,13 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 24438
   m_LastVerticalScrollValue: 0
+=======
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 918
+>>>>>>> Teo-from-menas
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -530,8 +621,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+<<<<<<< HEAD
     width: 344
     height: 764
+=======
+    width: 389
+    height: 857
+>>>>>>> Teo-from-menas
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -544,10 +640,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 3a61fdff7896fdff5898fdff12c0fdffb2f3fdff563afefff682feff1c96feffee78ffff4879ffffea79ffffde93ffffc098ffff2899ffff7499ffff1ca6ffff3ea7ffff22c0ffffecfaffffc0600000ee600000346100005a61000002660000126d0000606d00008e6d0000bc6d0000e46d0000026e0000766e0000
+=======
+      scrollPos: {x: 0, y: 28}
+      m_SelectedIDs: 56b90200
+      m_LastClickedID: 178518
+      m_ExpandedIDs: f838f9ff3e4ff9ff404ff9fffc54f9ff7e5bf9ff905bf9ff945bf9ffa85bf9ff465cf9ffd65df9ff265ef9ff9663f9ffe063f9ff4a65f9ff38acf9ff10f5f9ff12f5f9fffaf6f9fffcf6f9ffecfcf9ffeefcf9ff5827faff1851faffb451faffca67faff00a4faff62bcfaffa0eefaffe2fcfaffccfdfaff7efffaff3200fbffe800fbffb801fbff0202fbff5402fbff5831fbff023dfbff063efbff7a43fbfff24afbff226cfbff766ffbffb082fbff9084fbff349efbff809efbff569ffbff72a4fbff84a6fbff941cfcff5a24fcff8249fcff5252fcffc856fcff5c5bfcffb060fcff746bfcffd86bfcff647cfcff667cfcff5286fcff4887fcffa68bfcff7091fcffdc92fcffb0cefcff1ad3fcffccd6fcff7adcfcff36e3fcff785cfdffd45ffdff34bdfdff6659feff3e5ffeffbc68feff5acbfeff2aebfeffc033ffffca33ffff0a3bffff543bffffd840ffff7245ffff7c46ffff1257ffff2e59ffffda5dffff9e5fffff6864ffffa265ffffa868ffffb06afffffe7affff168fffff9ac4ffff50d6fffffeefffff0a6c00000e7c0000d47d0000f27d00008a880000de890000768a00000a930000489300008893000056970000049800007e980000c898000078bc000008bd00009ebd00007433010004340100663501007a40010098400100a240010028410100e6410100f04101001c530100ee53010010540100365401007c5f0100e67401003c7d0100167e0100f28a0100108b01001a8b0100c28b0100888c0100928c0100308d010054960100cc96010012970100f4990100209a0100b09a010006a201002ec501004cc5010056c5010000c60100cac60100baad02006eb702008cb702009ab7020016b8020094b80200bab802006ab9020074b9020016ba02006cba0200
+>>>>>>> Teo-from-menas
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -592,10 +695,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 345
     y: 73
     width: 1608
     height: 764
+=======
+    x: 390
+    y: 73
+    width: 1597
+    height: 857
+>>>>>>> Teo-from-menas
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -610,7 +720,11 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
+<<<<<<< HEAD
       snapOffset: {x: -171, y: -26}
+=======
+      snapOffset: {x: -171, y: -26.400024}
+>>>>>>> Teo-from-menas
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -866,11 +980,19 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
     - dockPosition: 0
+<<<<<<< HEAD
       containerId: Floating
       floating: 1
       collapsed: 0
       displayed: 0
       snapOffset: {x: 107, y: -449}
+=======
+      containerId: overlay-toolbar__right
+      floating: 0
+      collapsed: 1
+      displayed: 1
+      snapOffset: {x: -207, y: -242}
+>>>>>>> Teo-from-menas
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 2
       id: AINavigationOverlay
@@ -904,16 +1026,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
+    - dockPosition: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 1
+<<<<<<< HEAD
       snapOffset: {x: 965, y: 175}
+=======
+      snapOffset: {x: 571, y: 101}
+>>>>>>> Teo-from-menas
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 9
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -928,9 +1054,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 18.344017, y: 3.7821596, z: 48.386147}
     speed: 2
     m_Value: {x: 18.344017, y: 3.7821596, z: 48.386147}
+=======
+    m_Target: {x: 114.283264, y: 13.399759, z: 28.35326}
+    speed: 2
+    m_Value: {x: 114.283264, y: 13.399759, z: 28.35326}
+>>>>>>> Teo-from-menas
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -976,6 +1108,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.03724746, y: -0.17062922, z: 0.0064442037, w: -0.9846486}
     speed: 2
     m_Value: {x: -0.037246045, y: -0.17062274, z: 0.0064439587, w: -0.98461115}
@@ -983,13 +1116,22 @@ MonoBehaviour:
     m_Target: 24.45002
     speed: 2
     m_Value: 24.45002
+=======
+    m_Target: {x: -0.024614051, y: -0.030766161, z: 0.00022584961, w: -0.9994358}
+    speed: 2
+    m_Value: {x: -0.024608463, y: -0.032258436, z: 0.0002627147, w: -0.9991765}
+  m_Size:
+    m_Target: 25.085932
+    speed: 2
+    m_Value: 24.005676
+>>>>>>> Teo-from-menas
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1000,7 +1142,11 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: -0.071328335, y: 0.89496183, z: -0.1548334, w: -0.41229028}
+=======
+  m_LastSceneViewRotation: {x: -0.29987946, y: 0.10816142, z: -0.034243155, w: -0.9472073}
+>>>>>>> Teo-from-menas
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1028,10 +1174,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 345
     y: 73
     width: 1608
     height: 764
+=======
+    x: 390
+    y: 73
+    width: 1597
+    height: 857
+>>>>>>> Teo-from-menas
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1048,7 +1201,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1608, y: 743}
+=======
+  m_TargetSize: {x: 1920, y: 1080}
+>>>>>>> Teo-from-menas
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1057,16 +1214,23 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000800000006000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -804
     m_HBaseRangeMax: 804
     m_VBaseRangeMin: -371.5
     m_VBaseRangeMax: 371.5
+=======
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
+>>>>>>> Teo-from-menas
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1084,16 +1248,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1608
       height: 743
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 804, y: 371.5}
+=======
+      width: 1597
+      height: 836
+    m_Scale: {x: 0.7740741, y: 0.7740741}
+    m_Translation: {x: 798.5, y: 418}
+>>>>>>> Teo-from-menas
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -804
       y: -371.5
       width: 1608
@@ -1101,9 +1273,18 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1608, y: 764}
+=======
+      x: -1031.555
+      y: -540
+      width: 2063.11
+      height: 1080
+    m_MinimalGUI: 1
+  m_defaultScale: 0.7740741
+  m_LastWindowPixelSize: {x: 1597, y: 857}
+>>>>>>> Teo-from-menas
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 01000101000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &18
@@ -1128,9 +1309,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 858
     width: 1954
     height: 541
+=======
+    y: 951
+    width: 1988
+    height: 448
+>>>>>>> Teo-from-menas
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

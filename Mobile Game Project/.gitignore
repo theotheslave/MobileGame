@@ -43,10 +43,14 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+<<<<<<< HEAD
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+=======
+
+>>>>>>> Teo-from-menas
 
 # Unity3D generated file on crash reports
 sysinfo.txt

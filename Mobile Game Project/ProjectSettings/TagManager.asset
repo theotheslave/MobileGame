@@ -4,8 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - bucket
   - trash
+=======
+  - trash
+  - bucket
+>>>>>>> Teo-from-menas
   - wall
   layers:
   - Default

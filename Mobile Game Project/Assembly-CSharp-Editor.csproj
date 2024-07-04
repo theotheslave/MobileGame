@@ -970,6 +970,10 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Samsung.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Notifications">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
       <Private>False</Private>
@@ -986,6 +990,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Google.Android.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Google.Android.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -994,8 +1002,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AdaptivePerformance">
-      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Google.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Google.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.VRR.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1004,6 +1016,10 @@
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Notifications.iOS">
@@ -1034,16 +1050,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Samsung.Android.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1062,16 +1078,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Google.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Google.Android.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
@@ -1122,16 +1142,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Notifications.Unified">
-      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Formats.Alembic.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Profiling.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    <Reference Include="Unity.Notifications.Unified">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

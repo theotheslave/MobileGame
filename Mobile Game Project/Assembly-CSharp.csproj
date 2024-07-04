@@ -61,29 +61,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\NpcPatroling.cs" />
+=======
+    <Compile Include="Assets\Scripts\Whack-a-trash\CameraSwap2.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\WallDestroy1.cs" />
+    <Compile Include="Assets\Scripts\StartDialogue.cs" />
+>>>>>>> Teo-from-menas
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\Whack-a-trash\RandomSpawn.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Whack-a-trash\MoveTowards.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
+    <Compile Include="Assets\Open.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\DisableChar.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
-    <Compile Include="Assets\Scripts\TextPickup.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogueStart.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\Items.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\AI smart.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\TrashDestroy1.cs" />
     <Compile Include="Assets\Scripts\ItemController.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\CameraSwap1.cs" />
     <Compile Include="Assets\Minimap Folder\MinimapCameraNew.cs" />
+    <Compile Include="Assets\MainMenu1.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\TrashDestroy.cs" />
+    <Compile Include="Assets\Scripts\ButtonEnable.cs" />
+    <Compile Include="Assets\MenuScript.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\NextSceneIntroduction.cs" />
+    <Compile Include="Assets\Scripts\Whack-a-trash\WallDestroy.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\DialogueIntroduction.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Dialogue\RabbitAppear.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ButtonEnable1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -929,6 +948,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Samsung.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Notifications">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
       <Private>False</Private>
@@ -945,6 +968,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Google.Android.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Google.Android.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -953,8 +980,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AdaptivePerformance">
-      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.Google.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Google.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Simulator.VRR.Extension">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -963,6 +994,10 @@
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Notifications.iOS">
@@ -993,16 +1028,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Samsung.Android.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1021,16 +1056,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AdaptivePerformance.Google.Android">
+      <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Google.Android.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
@@ -1081,16 +1120,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Notifications.Unified">
-      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Formats.Alembic.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Profiling.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    <Reference Include="Unity.Notifications.Unified">
+      <HintPath>Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

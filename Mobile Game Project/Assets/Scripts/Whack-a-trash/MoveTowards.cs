@@ -6,11 +6,11 @@ public class MoveTowards : MonoBehaviour
 {
     public float speed;
     public float timer;
-    private float  randomTimer;
+    
     // Start is called before the first frame update
     void Start()
     {
-        randomTimer = Random.Range(5f, 7f);
+        
     }
 
     // Update is called once per frame
@@ -18,6 +18,7 @@ public class MoveTowards : MonoBehaviour
     {
 
         timer += Time.deltaTime;
+<<<<<<< HEAD
         transform.Translate(1 * speed * Time.deltaTime, 0,0 );
         
         if(timer == randomTimer)
@@ -37,4 +38,9 @@ public class MoveTowards : MonoBehaviour
             }
         }
         }
+=======
+        transform.Translate(1 * speed * Time.deltaTime,0,0 );
+        
+    }
+>>>>>>> Teo-from-menas
 }
